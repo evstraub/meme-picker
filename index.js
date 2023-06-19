@@ -32,7 +32,7 @@ function highlightCheckedOption(e){
         const catObject = getSingleCatObject()
         memeModalInner.innerHTML =    `<img 
         class="cat-img" 
-        src="../images/${catObject.image}"
+        src="./images/${catObject.image}"
         alt="${catObject.alt}"
         >`
         memeModal.style.display = 'flex'
